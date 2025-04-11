@@ -30,3 +30,26 @@ section#telefone {
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 473px;
+}
+section#social {
+    text-align: right;
+}
+section#social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    box-sizing: border-box;
+}
+section#social img:hover {
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.568);
+    transform: translate(-2px, -2px);
+    transition: all 0.2s ease-in-out;
+}
